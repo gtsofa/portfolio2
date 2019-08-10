@@ -53,6 +53,9 @@ header {
 h1, h2 {
   color: #fff;
 }
+h3 {
+  margin: 0 0 1em 0;
+}
 
 /***********************
 NAVIGATION
@@ -115,5 +118,15 @@ footer {
   width: 20px;
   height: 20px;
   margin: 0 5px;
+}
+
+/***********************
+PAGE: ABOUT
+************************/
+.profile-picture {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
 }
 
