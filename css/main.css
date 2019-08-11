@@ -66,6 +66,10 @@ nav {
   margin: 20px 0 0;
 }
 
+nav {
+  background: #599a68;
+}
+
 nav ul {
   list-style: none;
   margin: 0 10px;
@@ -74,6 +78,11 @@ nav ul {
 
 nav li {
   display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
 }
 
 nav a, nav a:visited {
@@ -128,5 +137,40 @@ PAGE: ABOUT
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
+}
+
+/***********************
+PAGE: CONTACT
+************************/
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+
+}
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+
 }
 
